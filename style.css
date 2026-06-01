@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Bebas+Neue&family=Changa+One:ital@0;1&display=swap');
+
+header{
+    display: flex;
+   font-size: 30px;
+  font-family: 'Anton', sans-serif;
+  color: rgb(192, 130, 16);
+
+
+
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+nav{
+gap: 15px;
+display:  flex;
+
+
+}
+nav a{
+ text-decoration:  none;   
+}
+
+nav a:hover{
+    background-color: rgb(192, 130, 16);
+    border-radius: 10px;
+}
+
+.horarioAberto {
+    display: inline-block;
+    background-color: rgb(192, 130, 16);
+    border-radius: 39px;
+    padding: 10px 15px;
+    font-family: "Changa One", sans-serif;
+}
+
+#horarioAberto {
+    font-size: 25px;
+    color: white;
+    margin: 0;
+}
+
+#fechamento {
+    color: rgb(3, 3, 3);
+    margin: 5px 0 0 0;
+
+}
+
+carrosel, #b{
+    font-size: 30px;
+font-family: "Bebas Neue", sans-serif;
+
+}
