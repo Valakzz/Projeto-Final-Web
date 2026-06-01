@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Bebas+Neue&family=Changa+One:ital@0;1&display=swap');
 
+body{
+    margin: 0;
+}
+
 header{
     display: flex;
    font-size: 45px;
   font-family: 'Anton', sans-serif;
   color: rgb(192, 130, 16);
+  margin-left: 30px;
+
 
 
 
@@ -17,7 +23,7 @@ nav a {
 
 nav{
 gap: 15px;
-display:  flex;
+
 
 
 }
@@ -34,16 +40,21 @@ nav a:hover{
 
 .horarioAberto {
     display: inline-block;
+    width: 300px;
     background-color: rgb(192, 130, 16);
     border-radius: 39px;
     padding: 10px 15px;
     font-family: "Changa One", sans-serif;
+    
+    
 }
 
 #horarioAberto {
     font-size: 25px;
     color: white;
     margin: 0;
+    
+    
 }
 
 #fechamento {
@@ -52,8 +63,13 @@ nav a:hover{
 
 }
 
-carrosel, #b{
+Carrosel, #b{
     font-size: 30px;
+    font-size: px;
+    
+  
 font-family: "Bebas Neue", sans-serif;
+margin-left: 30px;
+color: aliceblue;
 
 }
