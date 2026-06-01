@@ -2,7 +2,7 @@
 
 header{
     display: flex;
-   font-size: 30px;
+   font-size: 45px;
   font-family: 'Anton', sans-serif;
   color: rgb(192, 130, 16);
 
@@ -22,7 +22,9 @@ display:  flex;
 
 }
 nav a{
- text-decoration:  none;   
+ text-decoration:  none; 
+ font-size: medium;  
+ font-size: 18px;
 }
 
 nav a:hover{
