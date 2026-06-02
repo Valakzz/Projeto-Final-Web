@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+}
+
+.tablemanager{
+
+   border-radius: 10px;
+   font-size: 25px;
+   text-align: center;
+    width: 300px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    background-color: rgb(219, 151, 62);
+
+}
