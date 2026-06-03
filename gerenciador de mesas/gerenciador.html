@@ -8,15 +8,32 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>Gerenciador de Mesas</header>
-    <section class="tablemanager">
-        <p>mesa 1</p>
-        
 
- 
-    </section>
+    <header>Gerenciador de Mesas</header>
+    
+    <button onclick="adicionarMesa()">Abrir Mesa</button>
+
+<div id="containerMesas">
+        
+    <div id="mesas">
+        <section  class="tablemanager" onclick="mesas(this),abrirMesa(this)">
+             <h2>mesa 1</h2>
+        </section>
+    </div>
+   
+    
+     <aside id="painel">
+        <h2>Info da Mesa</h2>
+        <p id="infoMesa">Nenhuma mesa selecionada</p>
+    </aside> 
+
+    
+
+ </div>       
+    
 
     
     
 </body>
+<script src="script.js"></script>
 </html>
